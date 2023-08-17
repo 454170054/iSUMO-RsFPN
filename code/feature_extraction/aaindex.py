@@ -13,10 +13,9 @@ def minMaxScaler(data):
 
 def AAIndex(filepath):
     encodings = []
-    dataframe = pd.read_csv(filepath)
+    dataframe = pd.read_csv(filepath, sep=',')
     sequences = list(dataframe['Sequence'])
-    dataset = pd.read_excel(r"../../dataset/AAindex.slsx")
-    count = 0
+    dataset = pd.read_excel(r"../../dataset/AAindex.xlsx")
     for seq in sequences:
         seq = re.sub('[^ACDEFGHIKLMNPQRSTVWYX]', 'X', ''.join(seq).upper())
         encode = encode_sequence(seq, dataset)

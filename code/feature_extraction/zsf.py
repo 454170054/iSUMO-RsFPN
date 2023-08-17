@@ -28,7 +28,7 @@ def ZScale(filepath, CodeType):
         'X': [0, 0, 0, 0, 0],  # X
     }
     encodings = []
-    dataframe = pd.read_csv(filepath)
+    dataframe = pd.read_csv(filepath, sep=',')
     label = list(dataframe['Label'])
     sequences = list(dataframe['Sequence'])
     for i in sequences:
