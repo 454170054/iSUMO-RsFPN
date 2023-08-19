@@ -39,6 +39,7 @@ def tokenize_seqs(seqs):
 
 def extract_embedding_features(seqs):
     seqs_list = tokenize_seqs(seqs)
+    print(seqs_list)
     model = tf.keras.models.load_model('../../protein_bert_f/protein_bert')
     embedding_layer = model.layers[3]
     features = []
