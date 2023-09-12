@@ -4,7 +4,7 @@ iSUMO-RsFPN is a advanced predictor for predicting Lysine SUMO-ylation Sites.
 
 # Dependencies<hr>
 iSUMO-RsFPN requires python=3.9
-Below are the Python packages required by RsFPN:<br>
+Below are the Python packages required by iSUMO-RsFPN:<br>
 <ul>
     <li>tensorflow(2.13.0)</li>
     <li>scikit-learn(1.3.0)</li>
