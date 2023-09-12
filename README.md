@@ -13,9 +13,9 @@ Below are the Python packages required by iSUMO-RsFPN:<br>
     <li>pandas(2.0.3)</li>
 </ul>
 
-#Using iSUMO-RsFPN
-* Using iSUMO-RsFPN for predicting Lysine SUMO-ylation Sites is easy. You can see the examples in this notebook.<br>
-* If you want to repeat the experiment, you can execute the file isumo-rsfpn.ipynb.
-* If you want to use different datasets to train a predictor, you can see the file train_predictor.py.
+# Using iSUMO-RsFPN
+* Using iSUMO-RsFPN for predicting Lysine SUMO-ylation Sites is easy. You can see the examples in this <a href='https://github.com/454170054/iSUMO-RsFPN/blob/main/code/predict/demo.ipynb'>notebook</a>.<br>
+* If you want to repeat the experiment, you can execute the file <a href='https://github.com/454170054/iSUMO-RsFPN/blob/main/code/experimental_result/isumo-rsfpn.ipynb'>isumo-rsfpn.ipynb</a>.
+* If you want to use different datasets to train a predictor, you can see the file <a href='https://github.com/454170054/iSUMO-RsFPN/blob/main/code/predictor/train_predictor.py'>train_predictor.py</a>.
 
 
